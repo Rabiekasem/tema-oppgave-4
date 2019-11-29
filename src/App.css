@@ -1,0 +1,45 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: darkgray;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+.statistikk {
+    }
+
+.championships {
+    background-color: burlywood;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}

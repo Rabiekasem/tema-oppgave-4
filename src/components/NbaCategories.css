@@ -1,0 +1,50 @@
+.videos {
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: 1fr;
+    max-height: 50vh;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: .4rem;
+    border-radius: 8px;
+    height: 30px;
+    text-align: center;
+    border-radius: 18px;
+    outline: none;
+    margin-bottom:2rem;
+}
+
+.local-json {
+    width:100vw;
+    height:100vh;    
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content:center;
+    align-content: center;    
+}
+
+
+.submodule.video{
+    background-color: #17408b;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    font-size: .7rem;
+    height: 100px;
+    width:100%;
+}
+
+.nba img{
+    height: 100%;
+}
+
+.nba{
+    height:100%;
+    text-align:center;
+}
