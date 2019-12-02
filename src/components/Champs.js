@@ -1,10 +1,10 @@
 import React from "react"
-import NbaCategories from "./NbaCategories"
+import Championships from "./Championships"
 
 const Champs = () => {
     return(
         <main>
-           <NbaCategories />
+           <Championships />
         </main>
     )
 }

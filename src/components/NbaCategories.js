@@ -14,6 +14,7 @@ const NbaCategories = () => {
     return(
         <div className='submodule local-json statistikk'>
             <div className="nba-players">
+               <h1 id="heading">NBA statistikk of all time</h1>
                <input type="text" placeholder="Search after Team" onInput={filterNba} />
                
                <div className="videos">

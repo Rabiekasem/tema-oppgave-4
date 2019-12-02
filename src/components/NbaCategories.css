@@ -48,3 +48,8 @@ input[type="text"] {
     height:100%;
     text-align:center;
 }
+
+#heading{
+    color: #17408b;
+    text-align: center;
+}
