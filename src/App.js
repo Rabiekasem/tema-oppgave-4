@@ -12,8 +12,8 @@ const App = () => {
         <div>
             <header>
                 <nav className="nav">
-                    <Link to="statistikk">Statistikk</Link>
-                    <Link to="championships">Championships</Link>
+                    <Link to="statistikk" id="stats">Statistikk</Link>
+                    <Link to="championships" id="champ">Championships</Link>
                 </nav>
             </header>
 

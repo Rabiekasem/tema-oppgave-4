@@ -1,37 +1,31 @@
 import React, {useState} from 'react'
-import Nba from '../Data-base/data-base'
-import ShowResualts from './ShowResualts'
+import Tittles from '../Data-base/tittles'
+import ChampionshipsResualts from './ChampionshipsResualts'
 import './NbaCategories.css'
 
 const Championships = () => {
-    const [nba, setNba] = useState(Nba.players)
-    const filterNba = (e) => {
-        setNba(
-            Nba.players.filter( 
-                nba => nba.team.toLocaleLowerCase().includes(e.target.value) )
-        )
+    const [tittle,setNba] = useState(Tittles.trophys)
+    const filterNba2 = (e) => {
+        setNba(Tittles.trophys.filter(tittle => tittle.team.toLocaleLowerCase().includes(e.target.value)))
     }
-    return(
-        <div className='submodule local-json statistikk'>
+
+    return (
+        <div className='main div statistikk'>
             <div className="nba-players">
-               <h1 id="heading">NBA statistikk of all time</h1>
-               <input type="text" placeholder="Search after Team" onInput={filterNba} />
-               
-               <div className="videos">
-                  {
-                      nba.map(
-                      eachObject => <ShowResualts 
-                              team={eachObject.team}
-                              player={eachObject.player}
-                              points={eachObject.points}
-                      />
-                      )
-                  }
+                <h1 id="heading">NBA Championships</h1>
+                <input type="text" placeholder="Search after championships" onInput={filterNba2}/>
+
+                <div className="videos">
+                    {tittle.map(ring =>
+                    <ChampionshipsResualts
+                    team={ring.team}
+                    championships={ring.championships} />)
+}
                 </div>
             </div>
-            
+
             <div className="nba">
-              <img src={require("../image/nba-2.png")} />
+                <img src={require("../image/nba-2.png")}/>
             </div>
         </div>
     )

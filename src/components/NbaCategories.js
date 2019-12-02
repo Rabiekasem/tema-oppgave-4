@@ -4,34 +4,30 @@ import ShowResualts from './ShowResualts'
 import './NbaCategories.css'
 
 const NbaCategories = () => {
-    const [nba, setNba] = useState(Nba.players)
+    const [nba,setNba] = useState(Nba.players)
     const filterNba = (e) => {
-        setNba(
-            Nba.players.filter( 
-                nba => nba.team.toLocaleLowerCase().includes(e.target.value) )
-        )
+        setNba(Nba.players.filter(nba => nba.team.toLocaleLowerCase().includes(e.target.value)))
     }
-    return(
-        <div className='submodule local-json statistikk'>
+
+    return (
+        <div className='main div statistikk'>
             <div className="nba-players">
-               <h1 id="heading">NBA statistikk of all time</h1>
-               <input type="text" placeholder="Search after Team" onInput={filterNba} />
-               
-               <div className="videos">
-                  {
-                      nba.map(
-                      eachObject => <ShowResualts 
-                              team={eachObject.team}
-                              player={eachObject.player}
-                              points={eachObject.points}
-                      />
-                      )
-                  }
+                <h1 id="heading">NBA statistikk of all time</h1>
+                <p id="heading">All time leading points player for every team</p>
+                <input type="text" placeholder="Search after Team" onInput={filterNba}/>
+
+                <div className="videos">
+                    {nba.map(eachObject =>
+                    <ShowResualts
+                        team={eachObject.team}
+                        player={eachObject.player}
+                        points={eachObject.points} />)
+}
                 </div>
             </div>
-            
+
             <div className="nba">
-              <img src={require("../image/nba-2.png")} />
+                <img src={require("../image/nba-2.png")}/>
             </div>
         </div>
     )

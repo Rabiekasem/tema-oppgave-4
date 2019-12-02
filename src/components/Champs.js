@@ -3,7 +3,7 @@ import Championships from "./Championships"
 
 const Champs = () => {
     return(
-        <main>
+        <main className="main1">
            <Championships />
         </main>
     )
