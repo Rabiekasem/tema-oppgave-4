@@ -14,12 +14,14 @@ const App = () => {
                 <nav className="nav">
                     <Link to="statistikk" id="stats">Statistikk</Link>
                     <Link to="championships" id="champ">Championships</Link>
+                    
                 </nav>
             </header>
 
             <Router>
                 <Stats path="statistikk"/>
                 <Champs path="championships"/>
+                
             </Router>
 
         </div>

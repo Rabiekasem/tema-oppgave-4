@@ -12,7 +12,7 @@ const Championships = () => {
     return (
         <div className='main div statistikk'>
             <div className="nba-players">
-                <h1 id="heading">NBA Championships</h1>
+                <h1 id="heading2">NBA Championships</h1>
                 <input type="text" placeholder="Search after championships" onInput={filterNba2}/>
 
                 <div className="videos">

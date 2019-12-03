@@ -13,7 +13,7 @@ const NbaCategories = () => {
         <div className='main div statistikk'>
             <div className="nba-players">
                 <h1 id="heading">NBA statistikk of all time</h1>
-                <p id="heading">All time leading points player for every team</p>
+                <p id="para">All time leading points player for every team</p>
                 <input type="text" placeholder="Search after Team" onInput={filterNba}/>
 
                 <div className="videos">
