@@ -44,7 +44,7 @@ body{
 }
 
 #stats:hover {
-    color: #17408b;
+    color: #00d9ff;
     font-weight: 200;
     transform: scale(1.5);
     transform: rotate(360deg);
@@ -52,7 +52,7 @@ body{
     
 }
 #champ:hover {
-    color: #17408b;
+    color: #00d9ff;
     font-weight: 200;
     transform: scale(1.5);
     transform: rotate(360deg);
