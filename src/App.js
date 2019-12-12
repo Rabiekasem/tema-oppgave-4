@@ -12,16 +12,16 @@ const App = () => {
         <div>
             <header>
                 <nav className="nav">
-                    <Link to="statistikk" id="stats">Statistikk</Link>
+                    <Link to="statistikk" id="stats">Statistics</Link>
                     <Link to="championships" id="champ">Championships</Link>
-                    
+
                 </nav>
             </header>
 
             <Router>
                 <Stats path="statistikk"/>
                 <Champs path="championships"/>
-                
+
             </Router>
 
         </div>

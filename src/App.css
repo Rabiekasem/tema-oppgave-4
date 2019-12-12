@@ -2,15 +2,15 @@ body,
 html {
     margin: 0;
     padding: 0;
-    background-color: #eee;
-    
+
 }
 
-body{
-    background-image: url("./image/background.jpg");
+body {
+    background-image: url("./image/back.jpg");
     background-position: right;
     object-fit: cover;
-    
+    overflow: scroll;
+
 }
 
 * {
@@ -33,7 +33,7 @@ body{
     justify-content: center;
     gap: 0.5rem;
     background-color: rgba(75,8,109,0.8);
-    
+
 }
 
 .nav a {
@@ -42,30 +42,28 @@ body{
     padding: 1rem 2rem;
 
 }
-
 #stats:hover {
     color: #00d9ff;
     font-weight: 200;
     transform: scale(1.5);
     transform: rotate(360deg);
-    transition: 0.5s;
-    
+    transition: 0.3s;
+
 }
 #champ:hover {
     color: #00d9ff;
     font-weight: 200;
     transform: scale(1.5);
     transform: rotate(360deg);
-    transition: 0.5s;
-    
-    
+    transition: 0.3s;
+
 }
 
-#stats, #champ{
+#champ,
+#stats {
     font-size: 30px;
     font-weight: 500;
     transition: 0.5s;
     height: 80px;
-    transition-delay: 0.5s;
+    transition-delay: 0.8s;
 }
-

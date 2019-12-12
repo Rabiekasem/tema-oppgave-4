@@ -55,7 +55,7 @@ const Tittles = {
         },
         {
             "team": "Los Angeles Lakers",
-            "championships": "11 championships"
+            "championships": "11 championships",
         },
         {
             "team": "Memphis Grizzlies",

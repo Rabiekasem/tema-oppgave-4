@@ -27,7 +27,7 @@ const NbaCategories = () => {
             </div>
 
             <div className="nba">
-                <img src={require("../image/nba-2.png")}/>
+                <img src={require("../image/nba-4.jpg")}/>
             </div>
         </div>
     )

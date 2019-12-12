@@ -24,8 +24,8 @@ const Championships = () => {
                 </div>
             </div>
 
-            <div className="nba">
-                <img src={require("../image/nba-2.png")}/>
+            <div className="nba" id="nba1">
+                <img src={require("../image/trophy4.png")}/>
             </div>
         </div>
     )

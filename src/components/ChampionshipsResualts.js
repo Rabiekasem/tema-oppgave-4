@@ -1,10 +1,10 @@
 import React from 'react'
-import './ShowResualts.css'
+
 
 const ChampionshipsResualts = (props) => {
 
-    return(
-        <div className='main video'>
+    return (
+        <div className="video2">
             <h2>{props.team}</h2>
             <li>{props.championships}</li>
         </div>

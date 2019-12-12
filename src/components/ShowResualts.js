@@ -1,9 +1,9 @@
 import React from 'react'
-import './ShowResualts.css'
+
 
 const ShowResualts = (props) => {
 
-    return(
+    return (
         <div className='main video'>
             <h2>{props.team}</h2>
             <li>{props.player}</li>
