@@ -9,7 +9,7 @@ body {
     width: 100%;
     overflow: scroll;
     scroll-behavior: smooth;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 0px 0px 0px 1px;
 }
 
 input[type="text"] {
